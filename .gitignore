@@ -1,10 +1,16 @@
-# Arquivos de checkpoints e cache do Jupyter/Python
-.ipynb_checkpoints/
-__pycache__/
+# Ambiente virtual
+.venv/
+venv/
 
-# Configurações locais do editor
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+# Editor
 .vscode/
 
-# Se sua base de dados for pesada (acima de 100MB o GitHub bloqueia)
-# *.csv
-# *.xlsx
+# Dados brutos — pesados demais para o GitHub
+**/data/raw/*
+!**/data/raw/.gitkeep
