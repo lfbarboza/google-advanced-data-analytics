@@ -1,0 +1,10 @@
+# Arquivos de checkpoints e cache do Jupyter/Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Configurações locais do editor
+.vscode/
+
+# Se sua base de dados for pesada (acima de 100MB o GitHub bloqueia)
+# *.csv
+# *.xlsx
